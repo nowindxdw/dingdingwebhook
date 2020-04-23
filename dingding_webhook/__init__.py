@@ -1,1 +1,1 @@
-name = "dingding_webhook"
+name = "webhook"

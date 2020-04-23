@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dingding_webhook", # Replace with your own username
-    version="0.0.1",
+    version="0.0.3",
     author="nowindxdw",
     author_email="nowindxdw@126.com",
     description="A simple api for dingding robot",
@@ -14,9 +14,9 @@ setuptools.setup(
     url="https://github.com/nowindxdw/dingdingwebhook",
     packages=setuptools.find_packages(),
     classifiers=[
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 2",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.5',
+    python_requires='>=2.7',
 )

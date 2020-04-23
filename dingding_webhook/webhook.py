@@ -21,7 +21,6 @@ def send_text(post_url, content, atMobiles=[], isAtAll=False):
     }
     r = requests.post(post_url, json=data)
     response = r.json()
-    print(response)
     return response
 
 
@@ -44,7 +43,6 @@ def send_link(post_url, title, text, picUrl, msgUrl):
     }
     r = requests.post(post_url, json=data)
     response = r.json()
-    print(response)
     return response
 
 
@@ -69,7 +67,6 @@ def send_markdown(post_url, title, text, atMobiles=[], isAtAll=False):
     }
     r = requests.post(post_url, json=data)
     response = r.json()
-    print(response)
     return response
 
 
@@ -95,7 +92,6 @@ def send_actionCard(post_url, title, text, btns, hideAvatar="0"):
     }
     r = requests.post(post_url, json=data)
     response = r.json()
-    print(response)
     return response
 
 
@@ -114,5 +110,4 @@ def send_feedCard(post_url, cardList):
     }
     r = requests.post(post_url, json=data)
     response = r.json()
-    print(response)
     return response

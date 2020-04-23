@@ -19,7 +19,7 @@ pip install dingding_webhook
 send msg
 
 ```python
-import dingding_webhook
+import dingding_webhook.webhook as dingding_webhook
 
 
 webhook_url="xxx"  # your dingding robot webhook
@@ -100,6 +100,8 @@ send_actionCard(post_url, title, text, btns, hideAvatar="0")
 send_feedCard(post_url, cardList)
 
 ###Documentation
+
 more docs see
+
 [dingding doc](https://ding-doc.dingtalk.com/doc#/serverapi2/qf2nxq)
 
